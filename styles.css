@@ -19,6 +19,7 @@ ol {
 	margin-right: 2em;
 	display: inline;
 }
+.buttons > R
 
 a {
 	color: orange;
@@ -35,4 +36,24 @@ input {
 
 img {
 	max-width: 300px;
+}
+
+.buttons{
+	font-size: 16px;
+	background-color: rgb(255, 239, 173);
+	border-radius: 8px;
+	padding:0.3em 1.0em;
+}
+#restRNG-name{
+	font-size: 24pt;
+	color: crimson;
+	font-weight: bold;
+}
+#restRNG-address{
+	font-size: 18pt;
+	color: rgb(87, 57, 0)
+}
+#restRNG-phone{
+	font-size: 18pt;
+	color: rgb(87, 57, 0)
 }

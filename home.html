@@ -10,25 +10,48 @@
 		<ol>
 	        <li class="crumb"><a href="./home.html">Home</a></li>
 	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+			<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
 	        <li class="crumb"><a href="./about.html">About</a></li>
+	
 	    </ol>
 	</nav>
 
 	<content>
-		<h1>Welcome to this little website.</h1>
-		<!-- insert hello world here -->
+		
+		<p id="greeting">
+			<h1>Hello World!</h1>
+		</p>
+		
+		<p id="welcome">
+			<h2> Welcome to our little corner of the web, where we are committed to the simultaneous increase and decrease of entropy.</h2>
+		</p>
+	
 
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
+		<img id="matrix-duck" alt="matrix-themed-rubber-duck" src="https://amsterdamduckstore.com/wp-content/uploads/2019/08/Ducktrix-rubber-duck-front-Amsterdam-Duck-Store-1.jpg" >
+
+		<section id="compliments">
+			<ul id="compliment-list">
+				<li class="li-compliments"><h3>Well, you are certainly bright as a button.</h3></li>
+				<li class="li-compliments"><h3>We applaud you for your commitment to the legacy of notable German physicist and mathematician Rudolf Clausius.</h3></li>
+				<li class="li-compliments"><h3>We sincerely appreciate your investment in keeping Schrödinger's cat jokes alive and well into the 21st century and beyond.</h3></li>	
+			</ul>
+		</section>
 
 		<h2>Contact Us</h2>
 		<form id="contact">
-			Your name:
+			<fieldset data-role="controlgroup" data-type="horizontal" data-role="fieldcontain">	
+				Your name:
 			<input type="text">
 
 			Message:
 			<input type="textarea">
-
-			<input type="submit">
+			
+			Where did you hear about us?<br/>
+			<label for="google" style= "display: inline-flex" ><input type="radio" id= "google" value="Google" name="referral-source">Google</label>
+			<label for="a-friend" style= "display: inline-flex" ><input type="radio" id= "a-friend" value="A friend" name="referral-source">A friend</label>
+			<label for="other" style="display:inline-flex"><input type="radio" id= "other"	value="Other" name="referral-source">Other</label>
+			<input class="buttons" type="submit" id="contact-form-submit">
+			</fieldset>
 
 
 		</form>

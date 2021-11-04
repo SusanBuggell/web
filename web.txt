@@ -1,0 +1,21 @@
+Create a new file called web.txt. Answer the following questions in at least 2 paragraphs, in your own words, based on what you have learned in this module.
+
+**How does the internet work? What happens when you click on a link? **
+
+The internet works by conducting some things up front, and some things behind the scenes.  
+The internet is a networked collection of hardware and software.  Various pieces of hardware 
+are routers, switches and modems.  Routers connect your computer either via WiFi or cable 
+connection to the internet.  The data then goes from a modem to your Routing tables map 
+out a path for data to get from starting point to ending point, allowing for alternate routes 
+if something is taking too long somewhere.
+
+When you click on a link, lots of things might happen.  On a base level, when one clicks on a 
+link, a request is being made from the Front-End/Client-Side for something, as a .get request.  
+On the other end of this equation, the Back-End/Server-Side responds to this request by either 
+returning what is expected, or if configured to do so, sending an error response saying what 
+went wrong.   Whether you're requesting to download a file, going to a website, reading your 
+favorite web manga, logging in to your gMail, checking your bank balance before ordering something 
+from Amazon, watching cat videos or rewatching "Llamas with Hats” on youTube, for the four million, 
+nine hundred forty thousand, and nineteenth time to take a coding break before your head explodes, 
+all these things you may or may not have been aware of were happening all along. Just like in Disney's 
+The Sword in the Stone, that's what makes the world go round.
